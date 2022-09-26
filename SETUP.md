@@ -3,12 +3,17 @@ npx create-react-app theapp
 cd theapp
 npm start
 
-
 git init
 git add .
 git commit -m "initial commit"
 
-npm start
+ssh-keygen -t rsa -b 4096 -C "artidas@artidas.hu"
+
+git remote add origin git@github.com:artidas/theapp.git
+git branch -M main
+git push -u origin main
+
+  npm start
     Starts the development server.
 
   npm run build
