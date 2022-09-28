@@ -8,6 +8,7 @@ git add .
 git commit -m "initial commit"
 
 ssh-keygen -t rsa -b 4096 -C "artidas@artidas.hu"
+ssh-add "C:\Users\Admin\.ssh\id_rsa"
 
 git remote add origin git@github.com:artidas/theapp.git
 git branch -M main
