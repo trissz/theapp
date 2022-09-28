@@ -1,6 +1,11 @@
 cd c:\wamp\www
 npx create-react-app theapp
 cd theapp
+
+curl -sL https://aws-amplify.github.io/amplify-cli/install-win -o install.cmd && install.cmd
+npm install "@aws-amplify/ui-react@^3.1.0"
+
+npm install
 npm start
 
 git init
