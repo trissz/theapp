@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
 
           Fuck itt!
-
+          Fuck ott!
         </p>
         <a
           className="App-link"
